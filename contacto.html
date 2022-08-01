@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos-->
+    <link rel="stylesheet" href="./estilos/styles.css"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
+    
+    <title>Portada</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="./assets/Star_Wars_logo.svg" alt="logo">
+    </div>
+    <header>
+
+    </header>
+
+    <div class="contenedor-navegacion">
+        <nav class="nav-principal contenedor">
+            <a href="index.html">Star Wars</a>
+            <a href="personajes.html">Personajes</a>
+            <a href="peliculas.html">Peliculas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+
+
+    <main class="contenido-principal contenedor">
+
+    <form class="formulario">
+
+            <fieldset> 
+                <legend>Send us your request</legend>
+                    <div class="campo">
+                        <label for="nombre">Name:</label>
+                        <input id="nombre" type="text" placeholder="John" required>
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="asunto">Question:</label>
+                        <input id="asunto" type="text" placeholder="Question" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="tel">Phone number:</label>
+                        <input id="tel" type="tel" placeholder="Ph." required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Mail:</label>
+                        <input id="email" type="email" placeholder="E-mail" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Message:</label>
+                        <textarea 
+                            name="mensaje" 
+                            id="mensaje" 
+                            cols="30" 
+                            rows="10"
+                        >
+                        </textarea>
+                    </div>
+            </fieldset> 
+
+<fieldset>
+                <legend>Question field</legend>
+                <div class="campo">
+                    <label for="pregunta">Question</label>
+                    <select name="pais" id="pais">
+                        <option value="" disabled>-- Select --</option>
+                        <option value="ES" selected>Movies</option>
+                        <option value="PT">Characters</option>
+                        <option value="FR">Posters</option>
+                        <option value="IT">Other</option>
+                    </select>
+                </div>
+            </fieldset> 
+
+
+
+            </fieldset> 
+
+        <input class="btn" type="submit" value="Send form">
+
+    </form>
+
+</main>
+
+
+<footer class="site-footer">
+    <div class="grid-footer contenedor">
+        <div>
+            <h3>Categories</h3>
+            <nav class="footer-menu">
+                <a href="index.html">Home</a>
+                <a href="personajes.html">Personajes</a>
+                <a href="peliculas.html">Peliculas</a>
+            </nav>
+        </div>
+
+        <div>
+            <h3>About us</h3>
+            <nav class="footer-menu">
+                <a href="contacto.html">Contacto</a>
+                <a href="contacto.html">Terms and conditions</a>
+            </nav>
+
+        </div>
+
+        <div>
+            <h3>Support</h3>
+            <nav class="footer-menu">
+                <a href="contacto.html">FAQs</a>
+                <a href="contacto.html">Live support</a>
+                <a href="contacto.html">Security</a>
+            </nav>
+        </div>
+    </div>
+    <p class="copyright">All rights are reserved. Star Wars LC</p>
+</footer>
+
+</body>
+</html>
